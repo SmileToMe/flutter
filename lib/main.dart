@@ -30,14 +30,14 @@ import 'package:flutterapp/shoppingListStateless.dart';
 import 'listView/VerticalListViewExample.dart';
 
 void main() {
-  runApp(new MaterialApp(
-    title: 'Shopping App',
-    theme: new ThemeData(
-        brightness: Brightness.light,
-        primaryColor: Colors.lightBlue[800],
-        accentColor: Colors.cyan[600]),
-
-    home: new HttpExample(),
+  runApp(
+    new MaterialApp(
+      title: 'Shopping App',
+      theme: new ThemeData(
+          brightness: Brightness.light,
+          primaryColor: Colors.lightBlue[800],
+          accentColor: Colors.cyan[600]),
+      home: new GridViewExample(),
     ),
 
 //    home: new ShoppingList(

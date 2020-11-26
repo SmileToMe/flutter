@@ -26,7 +26,7 @@ Widget buildGrid() {
     padding: const EdgeInsets.all(4.0),
     mainAxisSpacing: 4.0,
     crossAxisSpacing: 4.0,
-    children: _buildGridTileList(30),
+    children: _buildGridTileList(17),
   );
 }
 
